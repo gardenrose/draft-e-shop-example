@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #243642; /*#008080*/
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+.navbar-links {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.navbar-links li {
+    color: white;
+}
+
+.navlogo {
+    width: 120px;
+    cursor: pointer;
+}
+
+.navlogo:hover {
+    background-color: teal;
+}
+
+.navitem {
+    color: white;
+    text-decoration:none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navitem:hover {
+    color: goldenrod;
+}
+
+.navsearch {
+    height: 38px;
+    font-size: 16px;
+    border: 2px solid goldenrod;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding-left: 20px;
+    padding-right: 60px;
+    border-right: none;
+}
+
+.searchbtn {
+    height: 38px;
+    width: 38px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: 2px solid goldenrod;
+    border-left: none;
+    cursor: pointer;
+    background-color: white;
+}
+
+.searchicon {
+    color: goldenrod;
+    font-size: 16px;
+}
+
+.navicon {
+    color: goldenrod;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.navicon:hover {
+    color: white;
+}
+
+.navuseraria {
+    display: flex;
+    gap: 30px;
+}
+

@@ -1,0 +1,21 @@
+.adcontainer {
+    margin-top: 40px;
+    width: 86%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 20px;
+}
+
+.adimage {
+    width:340px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
